@@ -1,0 +1,4 @@
+.nav > li > a.dropdown-toggle:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
