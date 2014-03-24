@@ -95,16 +95,16 @@
 
 <div class="col-md-2 left">
     {% block left_panel %}
-    <div class="panel panel-default tree">{% page_menu "pages/menus/tree.html" %}</div>
+    <!--<div class="panel panel-default tree">{% page_menu "pages/menus/tree.html" %}</div>--!>
     {% endblock %}
-</div>
+</div> 
 
 <div class="col-md-7 middle">
     {% block main %}{% endblock %}
 </div>
 
 <div class="col-md-3 right">
-    {% nevercache %}
+    <!--{% nevercache %}
     {% include "includes/user_panel.html" %}
     {% endnevercache %}
     <div class="panel panel-default">
@@ -115,8 +115,8 @@
     {% endifinstalled %}
     {% endblock %}
     </div>
-    </div>
-</div>
+    </div> --!>
+</div> 
 
 </div>
 </div>
